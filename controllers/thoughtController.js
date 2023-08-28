@@ -2,7 +2,7 @@
 const { User, Thought } = require("../models");
 
 // Get all thoughts
-const thoughtController = {
+module.exports = {
     async getThoughts(req, res) {
         try {
             const thoughts = await Thought.find();
@@ -129,6 +129,3 @@ const thoughtController = {
         }
     },
 };
-
-// Exports
-module.exports = thoughtController;
