@@ -2,7 +2,7 @@
 
 ## Description
 
-This application uses MongoDB to create and manage the back-end for a social network. It allows the user to use CRUD functions that will edit the database. Users can create, edit, and delete thoughts, add and remove friends, and react to thoughts.
+This application uses MongoDB to create and manage the back-end for a social network. It allows the user to use CRUD functions that will edit the database. Users can create, edit, and delete thoughts, add and remove friends, and react to thoughts. This application was made with the assistance of a tutor from the UTSA Coding Boot Camp.
 
 ## Table of Contents (Optional)
 
