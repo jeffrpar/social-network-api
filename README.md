@@ -2,7 +2,7 @@
 
 ## Description
 
-
+This application uses MongoDB to create and manage the back-end for a social network. It allows the user to use CRUD functions that will edit the database. Users can create, edit, and delete thoughts, add and remove friends, and react to thoughts.
 
 ## Table of Contents (Optional)
 
@@ -34,7 +34,7 @@
 
 ## Usage
 
-
+Users can create, edit, and delete thoughts, add and remove friends, and react to thoughts.
 
 ## Contributing-Guidelines
 
@@ -75,7 +75,8 @@ Your pull request will be reviewed by the maintainers, who may provide feedback 
 
 ## Future-Development-Goals
 
-
+-Add "like" feature
+-Create front-end UI for app
 
 ## Tests
 
