@@ -2,24 +2,24 @@ const { Schema, Types } = require("mongoose");
 
 const replySchema = new Schema(
     {
-        replyId: {
+        reactionId: {
             type: Schema.Types.ObjectId,
             default: () => new Types.ObjectId(),
         },
-        replyBody: {
+        reactionBody: {
             type: String,
             required: true,
-            maxlength: 1000,
+            maxlength: 280,
         },
         username: {
             type: String,
             required: true,
         },
-        createdOn: {
+        createdAt: {
             type: Date,
             default: Date.now,
         },
     }
 );
 
-module.exports = replySchema;
+module.exports = reactionSchema;
